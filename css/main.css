@@ -2,8 +2,6 @@
 /* --------------------------------------------
 	
 	main.css : main style file
-	Project : ikonik
-	Author : pixelwars 
 	
 	---
 	
@@ -332,10 +330,10 @@ input[type=radio]:checked:before {
 	}
 /* validation  */
 label.error {
- 	position: absolute; bottom: -26px; left: 0; min-width: 160px; font-size: 10px; font-weight: 400; text-transform: uppercase; padding: .2em .8em; background-color: #f11845; color: #fff; letter-spacing: .07em;
+ 	position: absolute; bottom: -26px; left: 0; min-width: 160px; font-size: 10px; font-weight: 400; text-transform: uppercase; padding: .2em .8em; background-color: #18f160; color: #fff; letter-spacing: .07em;
 	}
 label.error:after {
- 	content: " "; position: absolute; left: 0; bottom: 100%; pointer-events: none; width: 0; height: 0; border-bottom: 10px solid #f11845; border-right: 10px solid transparent;
+ 	content: " "; position: absolute; left: 0; bottom: 100%; pointer-events: none; width: 0; height: 0; border-bottom: 10px solid #18f160; border-right: 10px solid transparent;
 	}
 
 
@@ -1741,13 +1739,13 @@ button:not(.button):hover {
  	display: none; position: fixed; z-index: 9900; top: 50%; left: 50%; margin: -80px 0 0 -80px; font-size: 6em; line-height: 1; padding: .4em .5em; color: rgba(255, 255, 255, 0.86); text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1); background: rgba(28, 38, 43, 0.93); border-radius: 16px;
 	}
 .site-alert:before {
- 	content: "\e81f";
+ 	content: "Success!";
 	}
 .site-alert.error {
- 	background: #D44A4A; background: rgba(212, 74, 74, 0.55);
+ 	background: #4ad473; background: rgba(74, 212, 115, 0.55);
 	}
 .site-alert.error:before {
- 	content: "\e875";
+ 	content: "Success!";
 	}
 .site-alert {
 	-webkit-animation: animation 3800ms linear both;
