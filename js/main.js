@@ -965,51 +965,51 @@
 
   // ------------------------------
   // SETUP CONTACT FORM
-  // function setupContactForm() {
-  //   var contactForm = $("#contact-form");
-  //   if (contactForm.length) {
-	//   //contactForm.append('<div class="site-alert animated"></div>');
-  //     var $alert = $(".site-alert");
-	//   if(!$alert.length) {
-	// 	  contactForm.append('<div class="site-alert animated"></div>');
-	// 	  }
-  //     var $submit = contactForm.find(".submit");
+  function setupContactForm() {
+    var contactForm = $("#contact-form");
+    if (contactForm.length) {
+	  //contactForm.append('<div class="site-alert animated"></div>');
+      var $alert = $(".site-alert");
+	  if(!$alert.length) {
+		  contactForm.append('<div class="site-alert animated"></div>');
+		  }
+      // var $submit = contactForm.find(".submit");
 
-  //     contactForm.on("submit", function () {
-  //       if (contactForm.valid()) {
-  //         NProgress.start();
-  //         $submit.addClass("active loading");
-  //         var formValues = contactForm.serialize();
+      // contactForm.on("submit", function () {
+      //   if (contactForm.valid()) {
+      //     NProgress.start();
+      //     $submit.addClass("active loading");
+      //     var formValues = contactForm.serialize();
 
-  //         $.post(contactForm.attr("action"), formValues, function (data) {
-  //           if (data === "success") {
-  //             contactForm.clearForm();
-  //           } else {
-  //             $alert.addClass("error");
-  //           }
-  //           NProgress.done();
-  //           $alert.show();
-  //           setTimeout(function () {
-  //             $alert.hide();
-  //           }, 6000);
-  //         });
-  //       }
-  //       return false;
-  //     });
+      //     $.post(contactForm.attr("action"), formValues, function (data) {
+      //       if (data === "success") {
+      //         contactForm.clearForm();
+      //       } else {
+      //         $alert.addClass("error");
+      //       }
+      //       NProgress.done();
+      //       $alert.show();
+      //       setTimeout(function () {
+      //         $alert.hide();
+      //       }, 6000);
+      //     });
+      //   }
+      //   return false;
+      // });
 
-  //     $.fn.clearForm = function () {
-  //       return this.each(function () {
-  //         var type = this.type,
-  //           tag = this.tagName.toLowerCase();
-  //         if (tag == "form") return $(":input", this).clearForm();
-  //         if (type == "text" || type == "password" || tag == "textarea")
-  //           this.value = "";
-  //         else if (type == "checkbox" || type == "radio") this.checked = false;
-  //         else if (tag == "select") this.selectedIndex = -1;
-  //       });
-  //     };
-  //   }
-  // }
+      // $.fn.clearForm = function () {
+      //   return this.each(function () {
+      //     var type = this.type,
+      //       tag = this.tagName.toLowerCase();
+      //     if (tag == "form") return $(":input", this).clearForm();
+      //     if (type == "text" || type == "password" || tag == "textarea")
+      //       this.value = "";
+      //     else if (type == "checkbox" || type == "radio") this.checked = false;
+      //     else if (tag == "select") this.selectedIndex = -1;
+      //   });
+      // };
+    }
+  }
   // ------------------------------
 
 
